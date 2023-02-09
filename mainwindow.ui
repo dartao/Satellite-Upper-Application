@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1139</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/icon/地球 (1).png</normaloff>:/icon/地球 (1).png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>841</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1139</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件(F)</string>
+    </property>
+    <addaction name="action_connect"/>
+    <addaction name="action_save"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>视图(V)</string>
+    </property>
+    <addaction name="action_dataview"/>
+    <addaction name="action_satellite_dist"/>
+    <addaction name="action_Rdss"/>
+    <addaction name="action_channel_comm"/>
+    <addaction name="action_map"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>高级(T)</string>
+    </property>
+    <addaction name="action_multi_test_com"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>回放(P)</string>
+    </property>
+    <addaction name="action_load_file"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>布局(L)</string>
+    </property>
+    <addaction name="action_reset_layout"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>帮助(H)</string>
+    </property>
+    <addaction name="action_about"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_connect"/>
+   <addaction name="separator"/>
+   <addaction name="action_dataview"/>
+   <addaction name="separator"/>
+   <addaction name="action_satellite_dist"/>
+   <addaction name="separator"/>
+   <addaction name="action_map"/>
+   <addaction name="separator"/>
+   <addaction name="action_channel_comm"/>
+   <addaction name="separator"/>
+   <addaction name="action_Rdss"/>
+   <addaction name="separator"/>
+   <addaction name="action_multi_test_com"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_connect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/电话 (1).png</normaloff>:/icon/电话 (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>连接串口</string>
+   </property>
+   <property name="toolTip">
+    <string>串口配置</string>
+   </property>
+  </action>
+  <action name="action_dataview">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/会话.png</normaloff>:/icon/会话.png</iconset>
+   </property>
+   <property name="text">
+    <string>数据会话视图</string>
+   </property>
+   <property name="toolTip">
+    <string>数据会话视图</string>
+   </property>
+  </action>
+  <action name="action_save">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/save.jpg</normaloff>:/icon/save.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>保存文件</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/exit.jpg</normaloff>:/icon/exit.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>退出(X)    Ctrl+X</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="action_satellite_dist">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/sate.webp</normaloff>:/icon/sate.webp</iconset>
+   </property>
+   <property name="text">
+    <string>卫星分布视图</string>
+   </property>
+  </action>
+  <action name="action_Rdss">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/rdss.webp</normaloff>:/icon/rdss.webp</iconset>
+   </property>
+   <property name="text">
+    <string>Rdss通信视图</string>
+   </property>
+  </action>
+  <action name="action_channel_comm">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/channel.webp</normaloff>:/icon/channel.webp</iconset>
+   </property>
+   <property name="text">
+    <string>通道信息视图</string>
+   </property>
+  </action>
+  <action name="action_map">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/map.webp</normaloff>:/icon/map.webp</iconset>
+   </property>
+   <property name="text">
+    <string>地图跟踪视图</string>
+   </property>
+  </action>
+  <action name="action_multi_test_com">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/rdss.jpg</normaloff>:/icon/rdss.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>批量测试串口</string>
+   </property>
+  </action>
+  <action name="action_load_file">
+   <property name="text">
+    <string>加载文件</string>
+   </property>
+  </action>
+  <action name="action_reset_layout">
+   <property name="text">
+    <string>重置布局</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>action_exit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

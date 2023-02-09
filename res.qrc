@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/电话 (1).png</file>
+        <file>icon/电话.png</file>
+        <file>icon/会话.png</file>
+        <file>icon/地球.png</file>
+        <file>icon/地球 (1).png</file>
+        <file>icon/save.jpg</file>
+        <file>icon/exit.jpg</file>
+        <file>icon/satellite.webp</file>
+        <file>icon/sate.webp</file>
+        <file>icon/map.webp</file>
+        <file>icon/channel.webp</file>
+        <file>icon/rdss.webp</file>
+    </qresource>
+</RCC>

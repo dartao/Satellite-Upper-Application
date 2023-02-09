@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="res.qrc">
-    <normaloff>:/icon/地球 (1).png</normaloff>:/icon/地球 (1).png</iconset>
+    <normaloff>:/icon/earth.png</normaloff>:/icon/earth.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="1" column="2">

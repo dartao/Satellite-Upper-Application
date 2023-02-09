@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="res.qrc">
-    <normaloff>:/icon/地球 (1).png</normaloff>:/icon/地球 (1).png</iconset>
+    <normaloff>:/icon/earth.png</normaloff>:/icon/earth.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QMdiArea" name="mdiArea">
@@ -118,7 +118,7 @@
   <action name="action_connect">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/icon/电话 (1).png</normaloff>:/icon/电话 (1).png</iconset>
+     <normaloff>:/icon/tel.png</normaloff>:/icon/tel.png</iconset>
    </property>
    <property name="text">
     <string>连接串口</string>
@@ -130,7 +130,7 @@
   <action name="action_dataview">
    <property name="icon">
     <iconset resource="res.qrc">
-     <normaloff>:/icon/会话.png</normaloff>:/icon/会话.png</iconset>
+     <normaloff>:/icon/com.png</normaloff>:/icon/com.png</iconset>
    </property>
    <property name="text">
     <string>数据会话视图</string>

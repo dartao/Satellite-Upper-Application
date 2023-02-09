@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="res.qrc">
-    <normaloff>:/icon/电话.png</normaloff>:/icon/电话.png</iconset>
+    <normaloff>:/icon/tel2.png</normaloff>:/icon/tel2.png</iconset>
   </property>
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">

@@ -1,10 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>icon/电话 (1).png</file>
-        <file>icon/电话.png</file>
-        <file>icon/会话.png</file>
-        <file>icon/地球.png</file>
-        <file>icon/地球 (1).png</file>
         <file>icon/save.jpg</file>
         <file>icon/exit.jpg</file>
         <file>icon/satellite.webp</file>
@@ -12,5 +7,11 @@
         <file>icon/map.webp</file>
         <file>icon/channel.webp</file>
         <file>icon/rdss.webp</file>
+        <file>icon/com.png</file>
+        <file>icon/conv.png</file>
+        <file>icon/earth.png</file>
+        <file>icon/earth2.png</file>
+        <file>icon/tel.png</file>
+        <file>icon/tel2.png</file>
     </qresource>
 </RCC>
